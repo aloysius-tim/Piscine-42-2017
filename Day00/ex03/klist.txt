@@ -1,0 +1,7 @@
+Credentials cache: API:B3554F14-B303-4B7E-B4F6-C028342EC09B
+        Principal: tkeynes@42.FR
+
+  Issued                Expires               Principal
+Jul 31 09:22:45 2017  Aug  7 09:22:45 2017  krbtgt/42.FR@42.FR
+Jul 31 09:22:47 2017  Aug  7 09:22:45 2017  ldap/ldap-proxy.42.fr@42.FR
+Jul 31 09:22:47 2017  Aug  7 09:22:45 2017  HTTP/student-storage-1.42.fr@42.FR
