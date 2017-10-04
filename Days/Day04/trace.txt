@@ -1,0 +1,173 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e2r1p10.42.fr
+Darwin 15.6.0 x86_64
+$> date
+Mon Aug  7 15:52:01 CEST 2017
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: intra/2017/activities/piscine_c_day_04/tkeynes3
+
+= Git history ==================================================================
+$> git -C /var/folders/yb/20dzpqps77qgtfq3sr11c9yc0000gq/T/tmp2DVBa4/user log --pretty='%H - %an, %ad : %s'
+2cee6ccdd1e44a3bb97b23f8329357c956ee2c32 - Timothy KEYNES, Sun Aug 6 01:20:30 2017 +0200 : Final
+12acec3a75fab386e5db692b2a2b910cac8ffd00 - Timothy KEYNES, Fri Aug 4 16:41:12 2017 +0200 : adding all ex
+
+= Collected files ==========================================
+$> ls -lAR /var/folders/yb/20dzpqps77qgtfq3sr11c9yc0000gq/T/tmp2DVBa4/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  1002 Aug  7 15:52 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  7 15:52 ex00
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  7 15:52 ex01
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  7 15:52 ex02
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  7 15:52 ex03
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  7 15:52 ex04
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  7 15:52 ex05
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  7 15:52 ex06
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  7 15:52 ex07
+
+/var/folders/yb/20dzpqps77qgtfq3sr11c9yc0000gq/T/tmp2DVBa4/user/ex00:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1120 Aug  7 15:52 ft_iterative_factorial.c
+
+/var/folders/yb/20dzpqps77qgtfq3sr11c9yc0000gq/T/tmp2DVBa4/user/ex01:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1045 Aug  7 15:52 ft_recursive_factorial.c
+
+/var/folders/yb/20dzpqps77qgtfq3sr11c9yc0000gq/T/tmp2DVBa4/user/ex02:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1095 Aug  7 15:52 ft_iterative_power.c
+
+/var/folders/yb/20dzpqps77qgtfq3sr11c9yc0000gq/T/tmp2DVBa4/user/ex03:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1082 Aug  7 15:52 ft_recursive_power.c
+
+/var/folders/yb/20dzpqps77qgtfq3sr11c9yc0000gq/T/tmp2DVBa4/user/ex04:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1103 Aug  7 15:52 ft_fibonacci.c
+
+/var/folders/yb/20dzpqps77qgtfq3sr11c9yc0000gq/T/tmp2DVBa4/user/ex05:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1142 Aug  7 15:52 ft_sqrt.c
+
+/var/folders/yb/20dzpqps77qgtfq3sr11c9yc0000gq/T/tmp2DVBa4/user/ex06:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1116 Aug  7 15:52 ft_is_prime.c
+
+/var/folders/yb/20dzpqps77qgtfq3sr11c9yc0000gq/T/tmp2DVBa4/user/ex07:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1205 Aug  7 15:52 ft_find_next_prime.c
+
+= ex00 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_iterative_factorial.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror main.c ft_putchar.c ft_iterative_factorial.c -o user_exe
+
+= Test 1 ===================================================
+$> ./8zp4cod2g1xgh5lm4ipri03u
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex01 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_recursive_factorial.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror main.c ft_putchar.c ft_recursive_factorial.c -o user_exe
+
+= Test 1 ===================================================
+$> ./303f0jf5742fhtgzysrh2br3
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex02 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_iterative_power.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror ft_iterative_power.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./ailtb9zuk3k0jhtarys7a16z
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex03 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_recursive_power.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror ft_recursive_power.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./78277h7399o0ndrfma6tmr3v
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex04 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_fibonacci.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror ft_fibonacci.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./vmo08ccv4qpno9jr55erypr3
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex05 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_sqrt.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror main.c ft_putchar.c ft_sqrt.c -o user_exe
+
+= Test 1 ===================================================
+$> ./do1ywygpu51a7da8o48bwff3
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex06 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_is_prime.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror ft_is_prime.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./zymx9815gteupf4lb95dxksr
+Command './zymx9815gteupf4lb95dxksr' got killed by a Segmentation fault (Signal -11)
+Grade: 0
+
+= ex07 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_find_next_prime.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror ft_find_next_prime.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./b4nfys3cos0m6cwu2vdm2x8h
+Command './b4nfys3cos0m6cwu2vdm2x8h' got killed by a Segmentation fault (Signal -11)
+Grade: 0
+
+= ex08 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex09 =========================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade: 50 ==============================================================

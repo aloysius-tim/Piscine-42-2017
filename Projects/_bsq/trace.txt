@@ -1,0 +1,4 @@
+Working but did not handled one test for an invalid map...
+
+Functional tests: OK
+Basic tests: KO

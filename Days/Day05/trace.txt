@@ -1,0 +1,408 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e2r8p16.42.fr
+Darwin 15.6.0 x86_64
+$> date
+Tue Aug  8 14:45:58 CEST 2017
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: intra/2017/activities/piscine_c_day_05/tkeynes3
+
+= Git history ==================================================================
+$> git -C /var/folders/sx/rbk4d6nd2bbflg3pskp620j00000gq/T/tmpZ8dwdI/user log --pretty='%H - %an, %ad : %s'
+5b4bb87144931a9c623e97511be1d0aa5ffb3d0c - Timothy KEYNES, Tue Aug 8 10:16:18 2017 +0200 : ex 18 norme
+611f446d97295b94c80cdf02e1a69b9dcc3c758b - Timothy KEYNES, Mon Aug 7 22:30:09 2017 +0200 : corrected
+543aa13802fa9f1a69956fd1f8e536d93da8fa64 - Timothy KEYNES, Sun Aug 6 22:23:41 2017 +0200 : ex20
+a0ac635fbf83eccc0ff0bfc16589486b86672750 - Timothy KEYNES, Sun Aug 6 22:15:05 2017 +0200 : final
+5d339908353a40a00fd3c9867e3ece78d84499b4 - Timothy KEYNES, Sun Aug 6 19:16:31 2017 +0200 : corrected
+d5cdb123fc443ae39f38f8395d797c9ef1d22d78 - Timothy KEYNES, Sun Aug 6 17:49:49 2017 +0200 : norminette
+6bd710025d0c5febd8cf1da49c87bc94a6130e07 - Timothy KEYNES, Sun Aug 6 17:27:06 2017 +0200 : adding 19 & 20
+375d3448ae5d08fbbdc1c23a1a1239f53d0482b9 - Timothy KEYNES, Sun Aug 6 04:58:03 2017 +0200 : add 1 to 18, 8-9-10 not working
+
+= Collected files ==========================================
+$> ls -lAR /var/folders/sx/rbk4d6nd2bbflg3pskp620j00000gq/T/tmpZ8dwdI/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  3759 Aug  8 14:45 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  8 14:45 ex00
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  8 14:45 ex01
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  8 14:45 ex02
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  8 14:45 ex03
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  8 14:45 ex04
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  8 14:45 ex05
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  8 14:45 ex06
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  8 14:45 ex07
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  8 14:45 ex08
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  8 14:45 ex09
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  8 14:45 ex10
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  8 14:45 ex11
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  8 14:45 ex12
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  8 14:45 ex13
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  8 14:45 ex14
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  8 14:45 ex15
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  8 14:45 ex16
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  8 14:45 ex17
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  8 14:45 ex18
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  8 14:45 ex19
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  8 14:45 ex20
+
+/var/folders/sx/rbk4d6nd2bbflg3pskp620j00000gq/T/tmpZ8dwdI/user/ex00:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1005 Aug  8 14:45 ft_putstr.c
+
+/var/folders/sx/rbk4d6nd2bbflg3pskp620j00000gq/T/tmpZ8dwdI/user/ex01:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1257 Aug  8 14:45 ft_putnbr.c
+
+/var/folders/sx/rbk4d6nd2bbflg3pskp620j00000gq/T/tmpZ8dwdI/user/ex02:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1283 Aug  8 14:45 ft_atoi.c
+
+/var/folders/sx/rbk4d6nd2bbflg3pskp620j00000gq/T/tmpZ8dwdI/user/ex03:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1081 Aug  8 14:45 ft_strcpy.c
+
+/var/folders/sx/rbk4d6nd2bbflg3pskp620j00000gq/T/tmpZ8dwdI/user/ex04:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1127 Aug  8 14:45 ft_strncpy.c
+
+/var/folders/sx/rbk4d6nd2bbflg3pskp620j00000gq/T/tmpZ8dwdI/user/ex05:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1240 Aug  8 14:45 ft_strstr.c
+
+/var/folders/sx/rbk4d6nd2bbflg3pskp620j00000gq/T/tmpZ8dwdI/user/ex06:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1082 Aug  8 14:45 ft_strcmp.c
+
+/var/folders/sx/rbk4d6nd2bbflg3pskp620j00000gq/T/tmpZ8dwdI/user/ex07:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1116 Aug  8 14:45 ft_strncmp.c
+
+/var/folders/sx/rbk4d6nd2bbflg3pskp620j00000gq/T/tmpZ8dwdI/user/ex08:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1105 Aug  8 14:45 ft_strupcase.c
+
+/var/folders/sx/rbk4d6nd2bbflg3pskp620j00000gq/T/tmpZ8dwdI/user/ex09:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1107 Aug  8 14:45 ft_strlowcase.c
+
+/var/folders/sx/rbk4d6nd2bbflg3pskp620j00000gq/T/tmpZ8dwdI/user/ex10:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1634 Aug  8 14:45 ft_strcapitalize.c
+
+/var/folders/sx/rbk4d6nd2bbflg3pskp620j00000gq/T/tmpZ8dwdI/user/ex11:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1097 Aug  8 14:45 ft_str_is_alpha.c
+
+/var/folders/sx/rbk4d6nd2bbflg3pskp620j00000gq/T/tmpZ8dwdI/user/ex12:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1067 Aug  8 14:45 ft_str_is_numeric.c
+
+/var/folders/sx/rbk4d6nd2bbflg3pskp620j00000gq/T/tmpZ8dwdI/user/ex13:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1069 Aug  8 14:45 ft_str_is_lowercase.c
+
+/var/folders/sx/rbk4d6nd2bbflg3pskp620j00000gq/T/tmpZ8dwdI/user/ex14:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1069 Aug  8 14:45 ft_str_is_uppercase.c
+
+/var/folders/sx/rbk4d6nd2bbflg3pskp620j00000gq/T/tmpZ8dwdI/user/ex15:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1069 Aug  8 14:45 ft_str_is_printable.c
+
+/var/folders/sx/rbk4d6nd2bbflg3pskp620j00000gq/T/tmpZ8dwdI/user/ex16:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1133 Aug  8 14:45 ft_strcat.c
+
+/var/folders/sx/rbk4d6nd2bbflg3pskp620j00000gq/T/tmpZ8dwdI/user/ex17:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1161 Aug  8 14:45 ft_strncat.c
+
+/var/folders/sx/rbk4d6nd2bbflg3pskp620j00000gq/T/tmpZ8dwdI/user/ex18:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1772 Aug  8 14:45 ft_strlcat.c
+
+/var/folders/sx/rbk4d6nd2bbflg3pskp620j00000gq/T/tmpZ8dwdI/user/ex19:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1183 Aug  8 14:45 ft_strlcpy.c
+
+/var/folders/sx/rbk4d6nd2bbflg3pskp620j00000gq/T/tmpZ8dwdI/user/ex20:
+total 8
+-rw-r--r--  1 deepthought  deepthought  2104 Aug  8 14:45 ft_putnbr_base.c
+
+= ex00 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_putstr.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror test_ft_putstr.c ft_putchar.c ft_putstr.c -o user_exe
+
+= Test 1 ===================================================
+$> ./ydek2h9obrymqf6175iwc36a
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= ex01 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_putnbr.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror main.c ft_putnbr.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./ywxpui7upy923olykcpu4u0q
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= ex02 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_atoi.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror test_ft_atoi.c ft_putchar.c ft_atoi.c -o user_exe
+
+= Test 1 ===================================================
+$> ./ctudtzdc3e43ffmmd70c8snp
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= ex03 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_strcpy.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror main.c ft_putchar.c ft_strcpy.c -o user_exe
+
+= Test 1 ===================================================
+$> ./9tr0czyh0kx7txflw4eyd2i4
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 2
+
+= ex04 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_strncpy.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror main.c ft_putchar.c ft_strncpy.c -o user_exe
+
+= Test 1 ===================================================
+$> ./schrjmmpd0vye9t814ksip9e
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex05 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_strstr.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror main.c ft_strstr.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./4z8hjw45153uhsez3kpe1ug5
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex06 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_strcmp.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror main.c ft_strcmp.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./hkie4dim0chdczmfahk4cxu9
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex07 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_strncmp.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror ft_strncmp.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./hyb3ijifpe64gq6tjyvmmag1
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex08 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_strupcase.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror main.c ft_putchar.c ft_strupcase.c -o user_exe
+
+= Test 1 ===================================================
+$> ./ii3y9myb930n8ocx3blakllp
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex09 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_strlowcase.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror main.c ft_putchar.c ft_strlowcase.c -o user_exe
+
+= Test 1 ===================================================
+$> ./mh2shsy7vr9gy0sv6ncubrsn
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex10 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_strcapitalize.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror ft_strcapitalize.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./8vnfr8od6dkr09ufj88hrgq6
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex11 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_str_is_alpha.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror main.c ft_str_is_alpha.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./172j70txv3j87kb5yvzi1xes
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 2
+
+= ex12 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_str_is_numeric.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror main.c ft_putchar.c ft_str_is_numeric.c -o user_exe
+
+= Test 1 ===================================================
+$> ./x810no1bbs7f1z5fkxbbixsm
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 2
+
+= ex13 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_str_is_lowercase.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror ft_str_is_lowercase.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./dukw6hhs3x83prqbnb9h72hk
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 2
+
+= ex14 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_str_is_uppercase.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror main.c ft_str_is_uppercase.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./stvsucdp519v7r3cjbjtsofq
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 2
+
+= ex15 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_str_is_printable.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror ft_str_is_printable.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./1ef2y0q32ufc1ywbsms8x9pa
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 2
+
+= ex16 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_strcat.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror main.c ft_strcat.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./uzr1iojls1pq3pjb533l4gq6
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex17 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_strncat.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror ft_strncat.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./rnahfg0g5msi3bzlzjq1y14y
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex18 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_strlcat.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror ft_strlcat.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./8wkieduokcq9hsk28alkca8k
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex19 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_strlcpy.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror ft_strlcpy.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./yd9w2ckhrp8ukfqc796u63s3
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= ex20 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_putnbr_base.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror main.c ft_putchar.c ft_putnbr_base.c -o user_exe
+
+= Test 1 ===================================================
+$> ./o7lqe1ptc5bqhri5bmrbavl5
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 6
+
+= ex21 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex22 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex23 =========================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade: 76 ==============================================================

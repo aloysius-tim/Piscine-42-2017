@@ -1,0 +1,77 @@
+######
+0 -> Oublié de créer le dossier Ex00...
+######
+
+
+
+
+
+
+
+
+
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e2r6p13.42.fr
+Darwin 15.6.0 x86_64
+$> date
+Mon Aug 21 19:10:56 CEST 2017
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: intra/2017/activities/piscine_c_evalexpr/tkeynes
+
+= Git history ==================================================================
+$> git -C /var/folders/9w/s24gx57x1fg6n0wdv8gkz85r0000gq/T/tmpH7C_pm/user log --pretty='%H - %an, %ad : %s'
+40d6811cb81901adbadcd243e8db6e23b361deca - Timothy KEYNES, Sun Aug 20 18:38:35 2017 +0200 : OK
+3a3da998df37c98a1a6a88a0d055106786efda3b - Timothy KEYNES, Sun Aug 20 18:34:47 2017 +0200 : OK
+210bcf5b399e73bd813b5febcf7df6182992049b - Timothy KEYNES, Sun Aug 20 18:32:59 2017 +0200 : OK
+fef2366e26dfba3a38e487c170e3232ff9ce4876 - Timothy KEYNES, Sun Aug 20 18:27:26 2017 +0200 : OK
+3361631c40241378f8fe4d3d647739674f6c07cc - Timothy KEYNES, Sun Aug 20 18:02:09 2017 +0200 : final push
+74bc4081e199a2763206725ecc676f81a9bfd545 - Timothy KEYNES, Sun Aug 20 00:13:12 2017 +0200 : final without norme
+d929c0bbd1f18571e66574b887cf7dab9ba31d83 - Timothy KEYNES, Sat Aug 19 23:25:50 2017 +0200 : final v, need refractor
+e50ad16e1c51779ab7437da4d5e096393b45530a - Timothy KEYNES, Sat Aug 19 22:42:20 2017 +0200 : fucking state... changes on ft_is_prioritary and ft_parse_input->(else if ft_is_operator)
+d5de684205da86d0b8ba2302258c19e0f62d7f5d - Timothy KEYNES, Sat Aug 19 18:27:50 2017 +0200 : working state
+905f739fbf69b840f0f34ad0960b1849925b29fa - Timothy KEYNES, Sat Aug 19 15:41:57 2017 +0200 : init
+
+= Collected files ==========================================
+$> ls -lAR /var/folders/9w/s24gx57x1fg6n0wdv8gkz85r0000gq/T/tmpH7C_pm/user
+total 200
+-rw-r--r--  1 deepthought  deepthought   1237 Aug 21 19:10 Makefile
+-rw-r--r--  1 deepthought  deepthought   6295 Aug 21 19:10 __GIT_HISTORY
+-rwxr-xr-x  1 deepthought  deepthought  14408 Aug 21 19:10 eval_expr
+-rw-r--r--  1 deepthought  deepthought   1302 Aug 21 19:10 ft_atoi.c
+-rw-r--r--  1 deepthought  deepthought   2004 Aug 21 19:10 ft_check_format.c
+-rw-r--r--  1 deepthought  deepthought   1141 Aug 21 19:10 ft_check_format.h
+-rw-r--r--  1 deepthought  deepthought   1490 Aug 21 19:10 ft_itoa.c
+-rw-r--r--  1 deepthought  deepthought   2069 Aug 21 19:10 ft_list.c
+-rw-r--r--  1 deepthought  deepthought   1444 Aug 21 19:10 ft_list.h
+-rw-r--r--  1 deepthought  deepthought   1298 Aug 21 19:10 ft_operations.c
+-rw-r--r--  1 deepthought  deepthought   1183 Aug 21 19:10 ft_operations.h
+-rw-r--r--  1 deepthought  deepthought   2812 Aug 21 19:10 ft_parse_input.c
+-rw-r--r--  1 deepthought  deepthought   1342 Aug 21 19:10 ft_parse_input.h
+-rw-r--r--  1 deepthought  deepthought   1321 Aug 21 19:10 ft_putnbr.c
+-rw-r--r--  1 deepthought  deepthought   1732 Aug 21 19:10 ft_string.c
+-rw-r--r--  1 deepthought  deepthought   1235 Aug 21 19:10 ft_string.h
+-rw-r--r--  1 deepthought  deepthought   2582 Aug 21 19:10 ft_to_reverse_polish_notation.c
+-rw-r--r--  1 deepthought  deepthought   1352 Aug 21 19:10 ft_to_reverse_polish_notation.h
+-rw-r--r--  1 deepthought  deepthought   1680 Aug 21 19:10 ft_util.c
+-rw-r--r--  1 deepthought  deepthought   1203 Aug 21 19:10 ft_util.h
+-rw-r--r--  1 deepthought  deepthought   1073 Aug 21 19:10 main.c
+
+= ex00 =========================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade: 0 ===============================================================

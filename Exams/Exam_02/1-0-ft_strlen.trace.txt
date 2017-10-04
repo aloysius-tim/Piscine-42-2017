@@ -1,0 +1,89 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1r2p20.42.fr
+Darwin 15.6.0 x86_64
+$> date
+Fri Aug 18 18:34:10 CEST 2017
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2017/piscine-c-exam02/exam_20170818/tkeynes
+
+= Git history ==================================================================
+$> git -C /var/folders/l3/8zbmmysd7nn33yr8tcvky6fw0000gq/T/tmpcdcuCI/user log --pretty='%H - %an, %ad : %s'
+7866429418d80b7d413567e5a4792078efa68ccd - Exam 42, Fri Aug 18 18:33:21 2017 +0200 : 01
+bdbdfdf5bb1dadc2808e566d9828a1e75f819c81 - Exam 42, Fri Aug 18 18:23:32 2017 +0200 : 00
+a5998837dcc8785554d388881a3bb991cf985d82 - Exam 42, Fri Aug 18 18:10:36 2017 +0200 : ex00
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/l3/8zbmmysd7nn33yr8tcvky6fw0000gq/T/tmpcdcuCI/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  640 Aug 18 18:34 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Aug 18 18:34 aff_z
+drwxr-xr-x  3 deepthought  deepthought  102 Aug 18 18:34 ft_strlen
+
+/var/folders/l3/8zbmmysd7nn33yr8tcvky6fw0000gq/T/tmpcdcuCI/user/aff_z:
+total 8
+-rw-r--r--  1 deepthought  deepthought  963 Aug 18 18:34 aff_z.c
+
+/var/folders/l3/8zbmmysd7nn33yr8tcvky6fw0000gq/T/tmpcdcuCI/user/ft_strlen:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1012 Aug 18 18:34 ft_strlen.c
+ 
+= ft_strlen ====================================================================
+$> clang -Wextra -Wall -Werror ft_strlen.c main.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./j00czcuusd8gjyda43gvmmpe ""
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./211c6vbdat7z528ihocanrpw "	"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./7v688wtqospexdve2qbtea9l "fGpZ3v5"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./1xjqgrlfke3noqby39h9d19o "dUY5j"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./y3li009l81ve2ssg3wwja14z "fdMx"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./gzzvkm97og0rwyuf7yvgjb7r "7Pfb HsCw 5je XiFkohMQEObS nmeNWIS3l2xgw9f tIMxLkg"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./7mopw9ygtwtzdy6w0mzzps88 "rbJVCQe7RBp LpbKW3y YsjiBNGgqZy4Xfn OkobMyGTEc45I2 Z961PHIzlBtd RSBjtksh9zPm tu6k07sKJGRm 4FKSxfB6qT91yR SVXocFGImaNw1li4v Ovogqc2nbRdW8lQ nmO3S2iRWpbcVsX ASN J9uYnkPGMaDA3B tXcLQzshHCf"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./i90r7lwcrjo16q1lamqspun0 "otbvWiqdeQ3sD4alK BierIEnwQAg K4ZzAYraloFeG 9SrBK2wV0sON6C oWjV29MOaiDmScELb M6VSL yLNghOlWdqx5X qp1Ws8HK dC9qaFz0b 5x6EjDON1 u0F p3Hgb7zUAjD2nafX hQ1pZ6"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

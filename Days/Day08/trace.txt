@@ -1,0 +1,329 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1r1p11.42.fr
+Darwin 15.6.0 x86_64
+$> date
+Wed Aug  9 20:51:11 CEST 2017
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: intra/2017/activities/piscine_c_day_08/tkeynes2
+
+= Git history ==================================================================
+$> git -C /var/folders/c2/z299x15x6s594nkd5fvtr8sw0000gq/T/tmpBDVO1i/user log --pretty='%H - %an, %ad : %s'
+f518c02fdedb20b7e9e3773c51853444d355f822 - Timothy KEYNES, Wed Aug 9 18:14:30 2017 +0200 : 05 corrected
+f2aeede9acbc1c2bf89c38e0bc4d7cab0d588929 - Timothy KEYNES, Wed Aug 9 01:33:27 2017 +0200 : add all
+
+= Collected files ==========================================
+$> ls -lAR /var/folders/c2/z299x15x6s594nkd5fvtr8sw0000gq/T/tmpBDVO1i/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  983 Aug  9 20:51 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Aug  9 20:51 ex00
+drwxr-xr-x  3 deepthought  deepthought  102 Aug  9 20:51 ex01
+drwxr-xr-x  3 deepthought  deepthought  102 Aug  9 20:51 ex02
+drwxr-xr-x  3 deepthought  deepthought  102 Aug  9 20:51 ex03
+drwxr-xr-x  3 deepthought  deepthought  102 Aug  9 20:51 ex04
+drwxr-xr-x  4 deepthought  deepthought  136 Aug  9 20:51 ex05
+drwxr-xr-x  4 deepthought  deepthought  136 Aug  9 20:51 ex06
+
+/var/folders/c2/z299x15x6s594nkd5fvtr8sw0000gq/T/tmpBDVO1i/user/ex00:
+total 8
+-rw-r--r--  1 deepthought  deepthought  2779 Aug  9 20:51 ft_split_whitespaces.c
+
+/var/folders/c2/z299x15x6s594nkd5fvtr8sw0000gq/T/tmpBDVO1i/user/ex01:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1073 Aug  9 20:51 ft.h
+
+/var/folders/c2/z299x15x6s594nkd5fvtr8sw0000gq/T/tmpBDVO1i/user/ex02:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1234 Aug  9 20:51 ft_boolean.h
+
+/var/folders/c2/z299x15x6s594nkd5fvtr8sw0000gq/T/tmpBDVO1i/user/ex03:
+total 8
+-rw-r--r--  1 deepthought  deepthought  967 Aug  9 20:51 ft_abs.h
+
+/var/folders/c2/z299x15x6s594nkd5fvtr8sw0000gq/T/tmpBDVO1i/user/ex04:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1028 Aug  9 20:51 ft_point.h
+
+/var/folders/c2/z299x15x6s594nkd5fvtr8sw0000gq/T/tmpBDVO1i/user/ex05:
+total 16
+-rw-r--r--  1 deepthought  deepthought  1675 Aug  9 20:51 ft_param_to_tab.c
+-rw-r--r--  1 deepthought  deepthought  1162 Aug  9 20:51 ft_stock_par.h
+
+/var/folders/c2/z299x15x6s594nkd5fvtr8sw0000gq/T/tmpBDVO1i/user/ex06:
+total 16
+-rw-r--r--  1 deepthought  deepthought  1650 Aug  9 20:51 ft_show_tab.c
+-rw-r--r--  1 deepthought  deepthought  1247 Aug  9 20:51 ft_stock_par.h
+
+= ex00 =========================================================================
+$> /usr/bin/norminette -R CheckForbiddenSourceHeader ft_split_whitespaces.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror ft_split_whitespaces.c main.c -o user_exe
+
+= Test 1 ===================================================
+$> ./0wh4oybfc33l3gq5iek7fwcd " 	   			 "
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./vji3me2489b12moimsyjz33d "   	 			"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./hc2um3eo3or42mo6cnr6lnf4 " 	7wbIAm  		"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./1xpf7lnmhsjsqa9onwzgaoa7 " 	UiNn7  		"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./d37ostdgjt56fgnwy0uv2e8o " 	5r4R9  		"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./vzc7jwxnhdehobejrvzpmhei "q7 		 CXPYqnyUA 		 q 		 OC 		 zhbnV3t"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./dunaskneyt9knkr80vwlmwjf "tXT 		 2k 		 pEo 		 fIdnLZ 		 JgIh"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./4e9i3eug2wvcmf3sh370m9ib "dG7XQmC 		 KZubqGEHFcDR 		 lE2APOJUn 		 5pXzx 		 FXPrYbaW0e 		 E 		 vLcl69"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./fbgchcnbyicjkn4da21cqtlt "QFIWlzT3n7he 		 NXRHBGr 		 bXdWNh8qJu 		 DuGtniP7A6O 		 miv 		 2C5eZ 		 0lM"
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= ex01 =========================================================================
+$> /usr/bin/norminette  ft.h | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror ft_strlen.c ft_swap.c ft_strcmp.c ft_putstr.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./uqetjiq4l2ub5kryn7nff955
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 9
+
+= ex02 =========================================================================
+$> /usr/bin/norminette  ft_boolean.h | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror test_ft_boolean.c -o user_exe
+
+= Test 1 ===================================================
+$> ./bo7g3543v2521iyllweoqbhe un
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./vo0lh7qwfub9qic8xp5vufaq un deux
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./vbf9nigbxd3b8dnp91174dne un deux trois
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./qhy4gkqlmfvprrbqyfojxp9q un deux trois quatre
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex03 =========================================================================
+$> /usr/bin/norminette  ft_abs.h | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./4797jnioix71q2lt7v7y0f0c "-1567261794" "-1026451685" "1774714076"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./notl7bn5lm7zaibg0s1k8civ "-1320376790" "-1439251341" "-1344666177"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./ysbkshbz4n9odpn18821rhr2 "-2007956504" "-1558220354" "1388663313"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./uqxuwaphzbjwf1990ccekru3 "-1229670454" "-203030335" "-1349079799"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./vh659rk5xe56kt84wdulioao "66170641" "1742353214" "-1904459597"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./d04ltu8nq8i25yqfcgycze3u "-301454895" "-1861516280" "-17677686"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./fyh8oj5xim80cwyelni8ptck "499053499" "-419323860" "592378733"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./xdfbptssz5mfe1ggugx5ut8i "-674056207" "-1996044282" "-1689724719"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./o38woysudfpembyqto6eu42c "-356679250" "1498235637" "388280151"
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex04 =========================================================================
+$> /usr/bin/norminette  ft_point.h | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror test_ft_point.c -o user_exe
+
+= Test 1 ===================================================
+$> ./3hdnvu8zcfvg79nxy5a452ro
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 10
+
+= ex05 =========================================================================
+$> /usr/bin/norminette  ft_param_to_tab.c ft_stock_par.h | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror ft_param_to_tab.c ft_split_whitespaces.c ft_show_tab.c main.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./tb2cyd5kw6239pyiyenu2bcm
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./orghqwn4up669cagz80fpo8v "Rd01rHiZ3Pfn"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./cn6o55lxcc9m6xlciu4wuvtn "noTpV"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./9gqfezkdvi403vwmw0t73mia "XwIJLk qW60nQuBh UclAr C gEd5 HjybLIYMo OIAlYp m256kpZOBdq8"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./nzcbwchkcgvo0lnvrdop3kw0 "XdyE wZQUE qxFmNDUOyXV TG 5in0"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./sqb2f15ushjvghj93ri13c91 "M" "l5WV8wI" "jRTHBgULcw1A" "C4NMA9Vi" "6C" "CBvQ" "leqjvutCDO" "sZgevajO18Q" "hHOdKA7ygU" "b" "cez6njqmbPZ" "k" "Sh3xMl2"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./sa29qvs4ylhjqw26zeqepi3a "iN" "QdtAnkXOS0I" "9QNYULc4Ri" "w0HctAOfmv" "KWpAIzkfS" "XOrwk2g" "i"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./4w4b2nqpc30hjwhz8p1djgby "KU ySm6VJU" "4ZkEpH6yF SsC a1pR p0WZLOXNoM" "tWb 4YGSaR5gy fu73diRNk" "3inAJ0V IeZz KhOYP" "IPBDgud" "YtFxyCdMc W4d Fu4yIJzUnMh" "EO9" "SkD9BCe5OTA rGjtqRcKNw5U yzgf6sP" "koubglxJ 0Cf2rus Vnfh8kJ PNyIBGU2Q" "uNUb B X7 Jo89u23zed"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./vl0a0uxm9zy1jiktxs4vckfu "1ZvSgyhRDw e9UYr" "URi3G" "iaWP5AG69" "12peUNF MmGZCdTxNh" "Kbr2saLoQ PpCvL8QAjhKH f N16W" "Y vmfz4wLVy1 09nYjTf"
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+Grade: 30
+
+= ex06 =========================================================================
+$> /usr/bin/norminette  ft_stock_par.h ft_show_tab.c | grep -E '^(Error|Warning)'
+
+$> clang -Wextra -Wall -Werror main.c ft_param_to_tab.c ft_show_tab.c ft_putchar.c -o user_exe
+
+= Test 1 ===================================================
+$> ./qktwogqmr3w9bd0fvx4ogcj3
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./7msfvseb5dkkp83qd3o4airi "wsHMeG9boIn8QL"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./68j5rbro5jxuky9li18qcmce "L07zqQbsFeH"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./02iiqg286cdw9pcoqrpqadph "5hIR8WZEgfd9 N24Z5 zbB r68UvQPsnc F iXWT YQ WZK8Dp wU5r"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./434jz1mvnftg2gd32qqhd8ng "F2Kn9IQMRc3s sYfzVd14PH G7 AP FjV9kJ0f7bU 3Vh6ml aQ0GfZn4TOmt PLdxomwKE jOPy8Kctg1al hz UBim k6Dgn"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./6fireb1vootwsi5ll5b7hysf "xfic8tG" "RhKlpb" "SnbAiGa2MH" "tY7bHoGfPp" "QzF" "xBs1zbPX" "rVIhq" "uZ" "MnDYVCv" "i8s5oMDJ91BU" "ksIEjBg" "hymH" "xw5I0YC" "B8F7w" "6QWda8rbsCFU" "v"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./tw7fu4o966qy8q5yeobph478 "erkD7QqPYF" "rmgLTF" "lEB1dQFNowx" "o0mMkX3A" "hE23LkZw" "b8jZGz1i" "kVhe" "04TMuLzQSxn"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./c8rl5nlq3tu3656w05h2o968 "Q0rB143mPpy 3Hh G 4VRLZCIWKGOY" "Bz6hFTxJLRHn PN7A0tjp" "0 UfvcdCpVu 3iGoQ21UwN gMhb" "NQC" "0RYdCAh6V" "Hk7Apg69j" "CF0b8YPTc1i sq0LthWmd 6I0FxK9jJma 13n6Vd2a7yx" "n9t VvHe58XJ7LR QI8EyBrxwgJ r" "JrlWIbuhPm 2E7aMf8" "qUMmawu GmZ" "C2S7v ZVzX8POHLgk WMwvx GDj4bmAFJ" "nQNfr SBuFfG0w" "kGo0 TYZdJ" "Tz04YV" "S VOvCrwN"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./sh44ovc46rsozgrcxbuq8gik "FqzB 39Or8 lT3WK6fLSZ 1J" "Utlj KQzOY" "1 1FQAID" "YzwWvp Ndf 7" "va E" "RzLM j xNFeA52bHMP JhoHlGAaWP7F" "7KFf4g1Vra6 EKVHT w5jk1aBWU 60UWrBKJxpfI" "sUgrtBda9xih uEeIdwBhQ"
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+Grade: 30
+
+= Final grade: 100 =============================================================

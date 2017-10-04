@@ -1,0 +1,192 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1r2p21.42.fr
+Darwin 15.6.0 x86_64
+$> date
+Fri Aug 25 14:07:44 CEST 2017
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2017/piscine-c-exam-final/exam_20170825/tkeynes
+
+= Git history ==================================================================
+$> git -C /var/folders/yq/21252c9x237bs382vms3ksz80000gq/T/tmpMeyJjH/user log --pretty='%H - %an, %ad : %s'
+b6b14961d89e94a8496d80d3db6f29d14d9e017e - Exam 42, Fri Aug 25 14:07:10 2017 +0200 : itoa
+b48052f08f1d61e03d1953c971caf9885af00236 - Exam 42, Fri Aug 25 13:37:26 2017 +0200 : ok
+5286261fbb1f43e2666da31aaac0aa0011ca5943 - Exam 42, Fri Aug 25 13:04:00 2017 +0200 : rev
+d1165ee4d2fc7f94aa8aa52886908545f6d57d71 - Exam 42, Fri Aug 25 12:38:28 2017 +0200 : split
+82565aefac2b7df0260c51486a6d3a954a75d4ab - Exam 42, Fri Aug 25 11:54:55 2017 +0200 : print hex
+9de49158276d8191091f722c451e56c756101b7d - Exam 42, Fri Aug 25 11:28:38 2017 +0200 : add strrev
+fa402a16cadea6f1c52df5469aec01a56b0be0cc - Exam 42, Fri Aug 25 11:05:35 2017 +0200 : ok
+dc7adf970147d5123a0ee1c80e422986b7cedc43 - Exam 42, Fri Aug 25 11:01:27 2017 +0200 : 02
+17b2aad800026f2481b4b57cfa81c3cbb4b52f87 - Exam 42, Fri Aug 25 11:00:34 2017 +0200 : 02
+9a1601b9b229106aab52b563ad42a869054a1f97 - Exam 42, Fri Aug 25 10:21:17 2017 +0200 : add 01
+d5f1c2bc3027a9820f54244c64edc06f051aa6e7 - Exam 42, Fri Aug 25 10:12:32 2017 +0200 : adding ex00
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/yq/21252c9x237bs382vms3ksz80000gq/T/tmpMeyJjH/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  2690 Aug 25 14:07 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Aug 25 14:07 ft_itoa_base
+drwxr-xr-x  3 deepthought  deepthought   102 Aug 25 14:07 ft_split
+drwxr-xr-x  3 deepthought  deepthought   102 Aug 25 14:07 ft_strrev
+drwxr-xr-x  3 deepthought  deepthought   102 Aug 25 14:07 maff_revalpha
+drwxr-xr-x  3 deepthought  deepthought   102 Aug 25 14:07 print_hex
+drwxr-xr-x  3 deepthought  deepthought   102 Aug 25 14:07 print_memory
+drwxr-xr-x  3 deepthought  deepthought   102 Aug 25 14:07 rev_print
+drwxr-xr-x  3 deepthought  deepthought   102 Aug 25 14:07 rev_wstr
+drwxr-xr-x  3 deepthought  deepthought   102 Aug 25 14:07 reverse_bits
+
+/var/folders/yq/21252c9x237bs382vms3ksz80000gq/T/tmpMeyJjH/user/ft_itoa_base:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1785 Aug 25 14:07 ft_itoa_base.c
+
+/var/folders/yq/21252c9x237bs382vms3ksz80000gq/T/tmpMeyJjH/user/ft_split:
+total 8
+-rw-r--r--  1 deepthought  deepthought  2254 Aug 25 14:07 ft_split.c
+
+/var/folders/yq/21252c9x237bs382vms3ksz80000gq/T/tmpMeyJjH/user/ft_strrev:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1265 Aug 25 14:07 ft_strrev.c
+
+/var/folders/yq/21252c9x237bs382vms3ksz80000gq/T/tmpMeyJjH/user/maff_revalpha:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1214 Aug 25 14:07 maff_revalpha.c
+
+/var/folders/yq/21252c9x237bs382vms3ksz80000gq/T/tmpMeyJjH/user/print_hex:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1753 Aug 25 14:07 print_hex.c
+
+/var/folders/yq/21252c9x237bs382vms3ksz80000gq/T/tmpMeyJjH/user/print_memory:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1345 Aug 25 14:07 print_memory.c
+
+/var/folders/yq/21252c9x237bs382vms3ksz80000gq/T/tmpMeyJjH/user/rev_print:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1292 Aug 25 14:07 rev_print.c
+
+/var/folders/yq/21252c9x237bs382vms3ksz80000gq/T/tmpMeyJjH/user/rev_wstr:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1478 Aug 25 14:07 rev_wstr.c
+
+/var/folders/yq/21252c9x237bs382vms3ksz80000gq/T/tmpMeyJjH/user/reverse_bits:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1426 Aug 25 14:07 reverse_bits.c
+ 
+= ft_itoa_base =================================================================
+$> clang -Wextra -Wall -Werror ft_itoa_base.c main.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./xzhsnvv9fbrp4qnfn9tgy897 
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./r1gjut0ikj1ooqs2eo3it0qu "21" "2313" "12"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./5tzno4ye3b3mb16p5znp446k "2147483647" "10"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./csnswj1ni39waqysxnzf5vhc "-2147483648" "10"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./oh08jn38bnpqsjlpixtato0c "0" "2"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./tosik6h7fwpxgdc5xdff0oh9 "--223" "10"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./kyv174yymz7hgp85tzm6zmd0 "74348456" "12"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./ikiirn240y777z9gulz9zzzt "1956276751" "16"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./d1qwfcbrmdi1sqcewoo3i5h7 "607105001" "15"
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+= Test 10 ==================================================
+$> ./oj5bsbl0v426csvb72m8e9h1 "954887248" "13"
+$> diff -U 3 user_output_test10 test10.output | cat -e
+
+Diff OK :D
+= Test 11 ==================================================
+$> ./h01edrxnf41jiyywx9wxkskb "1145093194" "13"
+$> diff -U 3 user_output_test11 test11.output | cat -e
+
+Diff OK :D
+= Test 12 ==================================================
+$> ./ja9bfh5m3qc9c3arziu52ky9 "1994535629" "11"
+$> diff -U 3 user_output_test12 test12.output | cat -e
+
+Diff OK :D
+= Test 13 ==================================================
+$> ./cavp4i0s5plzqfxwrfkpe6bf "1279994936" "4"
+$> diff -U 3 user_output_test13 test13.output | cat -e
+
+Diff OK :D
+= Test 14 ==================================================
+$> ./m94f2t0f1crkykgvtetds5bm "1377642571" "10"
+$> diff -U 3 user_output_test14 test14.output | cat -e
+
+Diff OK :D
+= Test 15 ==================================================
+$> ./bnjlef8pzsm15gev6b92xbev "850814066" "9"
+$> diff -U 3 user_output_test15 test15.output | cat -e
+
+Diff OK :D
+= Test 16 ==================================================
+$> ./v5ssrmldwn7g4g936ogc7w24 "1849037361" "13"
+$> diff -U 3 user_output_test16 test16.output | cat -e
+
+Diff OK :D
+= Test 17 ==================================================
+$> ./wn69vqzk8z25j8nxdesdgzi2 "1328090124" "6"
+$> diff -U 3 user_output_test17 test17.output | cat -e
+
+Diff OK :D
+= Test 18 ==================================================
+$> ./7oz3hnc5m33pkfk8jskkyrd9 "603714869" "12"
+$> diff -U 3 user_output_test18 test18.output | cat -e
+
+Diff OK :D
+= Test 19 ==================================================
+$> ./ve8uay22qqa0wukyfwy55fs5 "-84556037" "9"
+$> diff -U 3 user_output_test19 test19.output | cat -e
+
+Diff OK :D
+= Test 20 ==================================================
+$> ./otl487yjazig3oqsrnbwcgy3 "1322177412" "2"
+$> diff -U 3 user_output_test20 test20.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================
